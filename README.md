@@ -7,6 +7,7 @@ only integer instructions. As a side effect, the results are very good because
 those conversions can introduce extra lossiness.
 
 Caveats:
-- I never finished the DXT5 big endian support
+- I never finished the DXT5 big endian support; I've omitted the big-endian
+  support from this release, but if you're interested in what I had ask me!
 - DXT 1 alpha handling is poor; it becomes viral, so an image with alpha will
   become increasingly transparent as it is scaled down.
